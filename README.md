@@ -1,16 +1,30 @@
-# React + Vite
+# KeenKeeper 🤝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React.js** — UI Framework
+- **React Router DOM** — Page navigation
+- **Tailwind CSS** — Styling
+- **Recharts** — Analytics chart
+- **React Toastify** — Toast notifications
+- **React Icons** — Icons
+- **Vite** — Build tool
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Friend Tracking** — Keep track of all your friends with their contact status (on-track, almost due, overdue)
+2. **Quick Check-In** — Log Call, Text, or Video interactions directly from a friend's detail page
+3. **Timeline & Analytics** — View all interactions in a timeline and visualize them with a pie chart
 
-## Expanding the ESLint configuration
+## 🚀 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 🌐 Live Link
+
+[KeenKeeper Live](your-live-link-here)
