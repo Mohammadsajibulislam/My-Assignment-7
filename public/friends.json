@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family", "close friend"],
+    "bio": "Former colleague and great mentor. Known each other for over 8 years.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david.kim@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "college"],
+    "bio": "Met at a coding bootcamp. We collaborate on side projects often.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "lisa.n@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["work", "travel"],
+    "bio": "Travel buddy from Japan trip. Always up for an adventure.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "jwright@outlook.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["college", "travel"],
+    "bio": "Roommate from university days. Best person to call when things go wrong.",
+    "goal": 7,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "schen@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Childhood friend. We grew up in the same neighborhood.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "marcus.j@gmail.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Colleague from previous job. Great mentor and even better friend.",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "aisha.patel@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Study partner from university. Now lives across the country.",
+    "goal": 21,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 8,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/60.jpg",
+    "email": "ryan.obrien@hotmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["family", "work"],
+    "bio": "Cousin and business partner. We meet for lunch every week.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  }
+]
