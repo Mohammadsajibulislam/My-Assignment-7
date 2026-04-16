@@ -3,7 +3,10 @@ import { createContext, useContext, useState } from "react";
 const TimelineContext = createContext();
 
 export const TimelineProvider = ({ children }) => {
-  const [timeline, setTimeline] = useState([]);
+  const [timeline, setTimeline] = useState(() => {
+    const saved = localStorage.getItem("timeline");
+    return saved ? JSON.parse(saved) : [];
+  });
 
   const addEntry = (friendName, type) => {
     const newEntry = {
@@ -16,7 +19,11 @@ export const TimelineProvider = ({ children }) => {
         day: "numeric",
       }),
     };
-    setTimeline((prev) => [newEntry, ...prev]);
+    setTimeline((prev) => {
+      const updated = [newEntry, ...prev];
+      localStorage.setItem("timeline", JSON.stringify(updated));
+      return updated;
+    });
   };
 
   return (
