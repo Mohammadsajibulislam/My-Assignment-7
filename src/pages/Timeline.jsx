@@ -1,4 +1,4 @@
-import { useTimeline } from "../context/TimelineContext";
+import { useTimeline } from "../hooks/useTimeline";
 import { useState } from "react";
 
 const typeConfig = {

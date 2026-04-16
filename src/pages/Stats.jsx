@@ -1,4 +1,4 @@
-import { useTimeline } from "../context/TimelineContext";
+import { useTimeline } from "../hooks/useTimeline";
 import { PieChart, Pie, Cell, Legend, Tooltip, ResponsiveContainer } from "recharts";
 
 const COLORS = ["#7c5cbf", "#244d3f", "#4ade80"];

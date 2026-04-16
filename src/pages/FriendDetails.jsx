@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import { useTimeline } from "../context/TimelineContext";
+import { useTimeline } from "../hooks/useTimeline";
 import { ArrowLeft, Clock, Archive, Trash2, Edit2 } from "lucide-react";
 import { FiPhone, FiMessageSquare, FiVideo } from "react-icons/fi";
 

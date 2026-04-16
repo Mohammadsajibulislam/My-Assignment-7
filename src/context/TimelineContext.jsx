@@ -1,6 +1,5 @@
-import { createContext, useContext, useState } from "react";
-
-const TimelineContext = createContext();
+import { useState } from "react";
+import { TimelineContext } from "./TimelineContextValue";
 
 export const TimelineProvider = ({ children }) => {
   const [timeline, setTimeline] = useState(() => {
@@ -32,5 +31,3 @@ export const TimelineProvider = ({ children }) => {
     </TimelineContext.Provider>
   );
 };
-
-export const useTimeline = () => useContext(TimelineContext);
