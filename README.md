@@ -27,4 +27,4 @@ npm run dev
 
 ## 🌐 Live Link
 
-[KeenKeeper Live](https://keenkeeper-my-assignment-7.netlify.app/)
+[KeenKeeper Live](https://keenkeeper-my-assignment-07.netlify.app/)
